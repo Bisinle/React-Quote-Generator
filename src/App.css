@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+ 
+}
+.quote-div{
+  background-color: hwb(335 2% 46% / 0.302);
+  padding: 5px;
+  position: relative;
+  height: 250px;
+  width: 600px;
+  box-shadow: 0 0 10px 1px  white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.author{
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+  margin-top: 20px;
+}
+/* .btn{
+  background-color: #045c3a;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 0%;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+} */
+
+.btns{
+  display: flex; 
+  width: 40%;
+  position: absolute;
+  bottom: 0px;
+left: 5%;
+
+
+  
+}
+.btn{
+  
+  
+  margin: 2px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 1em;
+  background-color:#096ad8;
+  color: #ffffff;
+  border-radius: 100%;
+ width: 40px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+
+}
+.twt{
+  border-radius: 100%;
+  width: 30px;
+
+}
+
+
