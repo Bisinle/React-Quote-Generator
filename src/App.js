@@ -42,6 +42,11 @@ function App() {
 function Tweet(){
   window.open("https://twitter.com/intent/tweet?text="+quoteArray[randomNumber]).text();
 }
+function paste(){
+  navigator.clipboard.writeText(quoteArray[randomNumber]);
+  alert('copied')
+
+}
 
 
   return (
@@ -52,7 +57,9 @@ function Tweet(){
         <p class="author"> -{authorArray[randomNumber]}</p>
       <div class="btns">      
         <button  class="btn" onClick={randomNumberGenerator}>↻</button>
+        <button  class="btn" onClick={paste}>p</button>
          <a class="btn twt" href="https://twitter.com/intent/tweet? " target='_blank' onClick={Tweet}>🐦</a>
+
       </div>
     </div>       
       </header>
